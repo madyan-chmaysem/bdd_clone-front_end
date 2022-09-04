@@ -33,3 +33,47 @@
   .links > li:last-child {
     margin-right: 0px;
   }
+ .hero {
+  background: url("../images/presentation.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  color: #fff;
+
+
+ }
+ .hero-content {
+  padding: 40vh 0 10vh 0;
+  width:50%;
+}
+.flex{
+  display: flex;
+  background-color: green;
+}
+.item {
+ 
+  margin:2.5vh;
+  background:#ffff;
+}
+.flex-space-evenly {
+  justify-content: space-evenly;
+  flex-grow: 1;
+  
+}
+.hi{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-bottom: 20px;
+  padding-top: 20px;
+ 
+  width: 150px;
+  height: 100px;
+}
+p{
+  padding-left:13vh;
+  padding-right: 13vh;
+  text-align: center;
+}
